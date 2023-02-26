@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    direction: ltr;
+}
+header{
+    background-image: url(../IMG/istockphoto-1212342896-612x612.jpg);
+    background-size:cover;
+    background-position: center center;
+   text-align: center;
+}
+header .count-down{
+    width: 60%;
+    margin: 20px auto;
+    align-items: center;
+    font-size: 60px;
+    display: inline-block;
+}
+header .counter{
+    display: inline-block;
+    margin: 0 15px;
+}
+header .count-amount{
+display: block;
+font-weight: bold;
+color: black;
+}
+header .heading-page h1{
+    font-size: xx-large;
+    color: black;
+}
+header .top-text .logotext{
+    margin: 20px;
+    display: inline-block;
+    font-family:honymoon;
+}
+header .top-text{
+    margin: 2px;
+    display: inline-block;
+    font-family: Robot;
+}
+header .logo{
+    margin: 10px;
+    
+}
+header .top-text .highlight{
+    margin: 20px;
+    display: inline-block;
+    font-family:honymoon;
+    color: firebrick;
+}
+@font-face {
+    font-family: honymoon;
+    src: url(../FONTS/HoneymoonUpBold_PERSONAL.ttf);
+    font-family:Robot;
+    src: url(../FONTS/Robot\ Dreamer\ Bold.ttf);
+
+}
+header .count-down .counter .count-period{
+    font-size: 35px;
+}
+header .send-notification p{
+    color: gray;
+}
+header .input-group{
+    width: 40%;
+    margin: auto;
+    transform:  translateY(40);
+    
+}
+header .send-notification .input-group button{
+    background-color: black;
+    padding: 13 33px;
+    border-radius: 0;
+    cursor: pointer;
+}
+header .send-notification .input-group input{
+    border: 4px solid black;
+    border-radius: 5px;
+    color:gray ;
+    font-size: x-large;
+    text-align: center;
+}
+.invalid-feedback{
+    margin-bottom: -30px;
+}
+section.features{
+    padding: 100px 0px;
+}
+section.features h1{
+    font-size: 45px;
+    color: black;
+    margin-bottom: 30px;   
+    
+}
+.container h1.features-h1{
+    text-align: center;
+}
+section.features h2{
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 50px;
+}
+section.features span.features-highlight{
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+section.features .row .d-flex{
+    border: 6px solid #fafafa;
+    padding: 40px 10px;
+    margin: 20px;
+    max-height: 260px;
+}
+section.features .row .d-flex h1{
+font-size: 26px;
+color: #555;
+}
+section.features .row .d-flex h2{
+    font-size: 15px;
+    line-height: 25px;
+    color: #a1a1a1;
+}
+section.features .row .col-md-6:nth-child(even){
+direction: rtl;
+}
+section.features .container .row #wci{
+    background-color: #9b072e;
+    max-height: 330px;
+    background-size: cover;
+}
+footer{
+    background-image: url(../IMG/pexels-david-bartus-963278.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+footer .footer-notification h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+footer .footer-notification{
+    background-color: rgb(224, 233, 240,0.7);
+    padding: 30px 0px;
+}
+footer  .input-group{
+    width: 30%;
+    margin: auto;
+}
+footer .input-group input{
+    border-radius: 0;
+    font-size: 18px;
+    color: rgb(244, 236, 236);
+    border-color:  black;
+    background-color: black;
+    text-align: center;
+}
+footer .input-group button{
+    border-radius: 0;
+    background-color: white;
+    padding: 13px 33px;
+}
+.form-control:focus {
+    border-color: unset !important;
+    box-shadow: unset !important;
+}
+
+footer .socail-media{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 100px 0 30px;
+}
+footer .socail-media h3{
+    font-family:Robot ;
+    margin-bottom: 20px;
+}
+footer .socail-media .list-inline img  {
+    width: 120px; 
+    height: 120px;
+    line-height: 120px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.14);
+    
+    
+}
+footer .socail-media .list-inline img:hover:hover{
+    background-color: white;
+    transition: 1 ease-in-out;
+}
+footer .socail-media .list-inline img.gp:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 1 ease-in-out;
+}
+footer .socail-media hr{
+    width: 40%;
+    margin: 50px auto 30px;
+}
+footer .socail-media img{
+    padding: 0px 20px;
+}
+footer .socail-media a.email{
+    text-decoration: none;
+    color: #a1a1a1;
+
+}
+footer .socail-media hr.d-hr{
+    width: 40%;
+    margin: 70px auto 30px;
+    margin-bottom: 30px;
+}
+footer .socail-media .t-a{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
